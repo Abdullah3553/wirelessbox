@@ -33,3 +33,9 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
     * USB-C port for power input used to charge the battery
     * Slots for controlled output from the battery
 # The docs are still under construction. Further details will continually be provided.
+
+
+# References
+  * [TP4056 - Buttery charger](https://ram-e-shop.com/product/lithium-battery-charger-module-1a-tp4056-with-battery-protection-usb-type-c/)
+  * [XY-BT-MINI Bluetooth circuit](https://www.amazon.eg/gp/product/B0B8KVX51R/ref=ox_sc_act_title_3?smid=A264BKS0ISFRYD&psc=1&language=ar_AE)
+  * [Battery](https://ram-e-shop.com/product/bt-063443p-800mah/)
