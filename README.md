@@ -44,7 +44,7 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
     * ![Charging Circuit Image](./images/battaryCharger.jpg)
 
   * **The Toggle Button** 
-    * To controll the power of the bluetooth circuit
+    * To control the power of the bluetooth circuit
     * ![Toggle Button Image](./images/switch.jpg)
 
 # Circuit Design
@@ -58,9 +58,9 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
 
 # JL AC23B Bluetooth audio decoder
   * The Internal design of the circuit was not provided by the manufacturer company ( ZhuHai Jieli Technology Ltd ) 
-  * However, I found the SDK of a similar chip ( called AC63 found that does the exact functionallty of AC23B  ). Check the referances down below. Also, AC6925A is another model from the same company that have the same functionallty of the used AC23B chip in this project. Check the referances for the schematic and the datasheet.
+  * However, I found the SDK of a similar chip ( called AC63 found that does the exact functionality of AC23B  ). Check the references down below. Also, AC6925A is another model from the same company that have the same functionality of the used AC23B chip in this project. Check the references for the schematic and the data sheet.
   * I did not include the actual schematic in here because it needs more testing and validation to ensure that AC23B has the same internal design as the AC6925A chip.
-  * I have tried to contatc the manufacturer company via the email but they refused to share any datasheet with me because i'm not working under any company :"( .
+  * I have tried to contact the manufacturer company via the email but they refused to share any data sheet with me because i'm not working under any company :"( .
   # The docs are still under construction. Further details will continually be provided.
 
 
@@ -71,6 +71,6 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
   * [TP4056 Circuit](https://oshwlab.com/Little_Arc/TP4056)
   * [ZhuHai Jieli Technology Ltd website ](https://www.zh-jieli.com/)
   * [AC63 Chip github](https://github.com/Jieli-Tech/fw-AC63_BT_SDK)
-  * [AC6925A Datasheet](https://www.eevblog.com/forum/projects/jl-bluetooth-ic-id/?action=dlattach;attach=1812691;PHPSESSID=tiv80vadn9dtolugd531mf4f1c)
+  * [AC6925A Data sheet](https://www.eevblog.com/forum/projects/jl-bluetooth-ic-id/?action=dlattach;attach=1812691;PHPSESSID=tiv80vadn9dtolugd531mf4f1c)
   * [AC6925A schematic](https://www.eevblog.com/forum/projects/jl-bluetooth-ic-id/?action=dlattach;attach=1812676;PHPSESSID=tiv80vadn9dtolugd531mf4f1c)
   * [This blog has some people who have some different variation of the chip](https://www.eevblog.com/forum/projects/jl-bluetooth-ic-id/)
