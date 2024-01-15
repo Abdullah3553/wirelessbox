@@ -23,7 +23,7 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
     * Li-Po chemistry rechargeable battery
     * 3.7 Voltage
     * 800 mA capacity
-    * ![Battry Image](./images/battary.jpg)
+    * ![Battery Image](./images/battary.jpg)
       
   * **The Bluetooth circuit specs** 
     * 33 mm * 30 mm * 7 mm 
@@ -61,7 +61,28 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
   * However, I found the SDK of a similar chip ( called AC63 found that does the exact functionality of AC23B  ). Check the references down below. Also, AC6925A is another model from the same company that have the same functionality of the used AC23B chip in this project. Check the references for the schematic and the data sheet.
   * I did not include the actual schematic in here because it needs more testing and validation to ensure that AC23B has the same internal design as the AC6925A chip.
   * I have tried to contact the manufacturer company via the email but they refused to share any data sheet with me because i'm not working under any company :"( .
-  # The docs are still under construction. Further details will continually be provided.
+
+# LED Indicators
+  * **The bluetooth module** it has a blue LED.
+    * When this LED is blinking that means it's connected to another bluetooth device. 
+    * If the LED is off that means no the circuit is turned off.
+    * If the LED is lighting without blinking. That means it has power but it's not connected to ant device.   
+  * **The Charging Circuit** it has 2 blue LEDs. LED1 and LED2.
+    * Both LED will work only if the charging circuit it connected to USB cable for charging.
+    * If LED1 is on that means the battery is charging.
+    * If LED2 is on that means the battery is full.
+
+# The wiring 
+  * I don't have good soldering skills but I managed to do it :D .
+  ![Wires](./images/circuit%20wires.jpg)
+
+# The first prototype 
+  * This is the initial prototype of the container. This small gift box actually is a good container. It has 2 layers of foam to isolate the 
+    components from each other so short circuit may occurs. Also, the gift box is made of paper so it doesn't block or interfere the bluetooth signal.
+  * The only down-side is you can not see the led when the circuit is powered on. also, You have to open the led of the box to see the USB charging port.
+  ![Prototype](./images/first%20prototype.jpg)
+
+# The docs are still under construction. Further details will continually be provided.
 
 
 # References
