@@ -64,9 +64,9 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
 
 # LED Indicators
   * **The bluetooth module** it has a blue LED.
-    * When this LED is blinking that means it's connected to another bluetooth device. 
+    * When this LED is not blinking that means it's not connected to ant bluetooth device. 
     * If the LED is off that means no the circuit is turned off.
-    * If the LED is lighting without blinking. That means it has power but it's not connected to ant device.   
+    * If the LED is blinking. That means it has power and it's connected to a device.   
   * **The Charging Circuit** it has 2 blue LEDs. LED1 and LED2.
     * Both LED will work only if the charging circuit it connected to USB cable for charging.
     * If LED1 is on that means the battery is charging.
