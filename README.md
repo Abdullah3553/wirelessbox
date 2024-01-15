@@ -78,7 +78,7 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
 
 # The first prototype 
   * This is the initial prototype of the container. This small gift box actually is a good container. It has 2 layers of foam to isolate the 
-    components from each other so short circuit may occurs. Also, the gift box is made of paper so it doesn't block or interfere the bluetooth signal.
+    components from each other so short circuit may not occur. Also, the gift box is made of paper so it doesn't block or interfere the bluetooth signal.
   * The only down-side is you can not see the led when the circuit is powered on. also, You have to open the led of the box to see the USB charging port.
   ![Prototype](./images/first%20prototype.jpg)
 
