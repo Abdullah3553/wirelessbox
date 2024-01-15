@@ -82,6 +82,14 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
   * The only down-side is you can not see the led when the circuit is powered on. also, You have to open the led of the box to see the USB charging port.
   ![Prototype](./images/first%20prototype.jpg)
 
+# Testing Phase
+  * **Test(1)** : 
+    * The sound quality is excellent and consistent .
+    * The range of reception seems to be around 20 - 30 meters. 
+    * The 800 mA battery was powered on for 8 hours and id did NOT get fully consumed yet.
+    * Tested on Windows 11, arch linux and android. The result is the same consistency every time. 
+    * The battery took like 1 hour to fully charge up (It was not empty before charging it). 
+
 # The docs are still under construction. Further details will continually be provided.
 
 
