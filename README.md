@@ -78,7 +78,7 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
 
 # The first prototype 
   * This is the initial prototype of the container. This small gift box actually is a good container. It has 2 layers of foam to isolate the 
-    components from each other so short circuit may not occur. Also, the gift box is made of paper so it doesn't block or interfere the bluetooth signal.
+    components from each other so short circuit may not occur. Also, the gift box is made of paper so it doesn't block or interfere the Bluetooth signal.
   * The only down-side is you can not see the led when the circuit is powered on. also, You have to open the led of the box to see the USB charging port.
   ![Prototype](./images/first%20prototype.jpg)
 
@@ -87,9 +87,13 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
     * The sound quality is excellent and consistent .
     * The range of reception seems to be around 20 - 30 meters. 
     * The 800 mA battery was powered on for 8 hours and id did NOT get fully consumed yet.
-    * Tested on Windows 11, arch linux and android. The result is the same consistency every time. 
+    * Tested on Windows 11, arch Linux and android. The result is the same consistency every time. 
     * The battery took like 1 hour to fully charge up (It was not empty before charging it). 
-
+  * **Test(2)** :
+    * I didn't charge the buttery. the power percentage is unknown. But, the battery has power left from the previous test. 
+    * The usage time for this test was 6 hours and it did not ran out of power yet.
+    * I have noticed that when the sound being transmitted from the receiver device is below certain volume, The chip thinks that the sound being received is zero. So in some level of low volume, I find the chip mishandling that. 
+    * Other than that, the sound quality is still king. The distance is still 20 - 30 meters inside the house. 
 # The docs are still under construction. Further details will continually be provided.
 
 
