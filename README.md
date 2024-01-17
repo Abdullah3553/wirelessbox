@@ -94,11 +94,34 @@ Ummmm, I am not specifically a programmer rather than an engineer. I am a proble
     * The usage time for this test was 6 hours and it did not ran out of power yet.
     * I have noticed that when the sound being transmitted from the receiver device is below certain volume, The chip thinks that the sound being received is zero. So in some level of low volume, I find the chip mishandling that. 
     * Other than that, the sound quality is still king. The distance is still 20 - 30 meters inside the house. 
-# The docs are still under construction. Further details will continually be provided.
+  * **Test(3)** :
+    * Guess what, Another 8 hours without battery dying.
+    * Nothing out of ordinary on this test. Seems to be really stable. 
+    * I start to think about how can we implement pause/resume to Bluetooth chip.  
+
+# Results 
+  * well, I have been testing the "BOX" we can say for a few days ad it pretty decent. To be honest, there is tons of optimizations and enhancements that could be implemented and I don't think it would be that hard. 
+  * have a closed-source chip is pretty annoying. It's limiting to what could and couldn't be done. But for a prototype, it's pretty good. 
+  * This is fully customizable. Whenever I want I may change the whole Bluetooth chip or buy a larger battery. 
+  * It's really dynamic, It's just one box that may be used on my speakers, headphones and a car radio. 
+  * the battery is huge, like HUGE! It's takes like an hour an hour and a half to fully charge and may last for 2-3 days of 8 hour usage per day . 
+  * cost wise, this is actually might be cheaper than buy a wireless headphones. This whole thing cost like 900 L.E. This is like 40% cheaper from buying some wireless earphone. Also, considering the other advantages  this build has, I would say it worthy. 
+
+# Future extensions 
+  1. Building the Bluetooth module from scratch using a micro-chip like Arduino or even atmeg16.
+  2. A send-receive  feature to enable something like pausing the sound or changing to next or previous.
+  3. SD card slot for using the headphones without the need of connecting to another device. 
+  4. enhancing the power consumption. 
+  5. A 3D box to contain the components instead of the gift box xd.
+  6. AUX- port that supports the microphone to be used as microphone also. 
+  7. A single chip that contain the Bluetooth module and the charging circuit together. 
+
+# The project statement
+  for the current period, I will be working on other projects. Finding a new problem and a good solution for it. Since the current implementation solved my problem, that would be enough for my case. But in your case ? Feel free to extend this or contact me for any info !  
 
 
 # References
-  * [TP4056 - Buttery charger](https://ram-e-shop.com/product/lithium-battery-charger-module-1a-tp4056-with-battery-protection-usb-type-c/)
+  * [TP4056 - battery charger](https://ram-e-shop.com/product/lithium-battery-charger-module-1a-tp4056-with-battery-protection-usb-type-c/)
   * [XY-BT-MINI Bluetooth circuit](https://www.amazon.eg/gp/product/B0B8KVX51R/ref=ox_sc_act_title_3?smid=A264BKS0ISFRYD&psc=1&language=ar_AE)
   * [Battery](https://ram-e-shop.com/product/bt-063443p-800mah/)
   * [TP4056 Circuit](https://oshwlab.com/Little_Arc/TP4056)
